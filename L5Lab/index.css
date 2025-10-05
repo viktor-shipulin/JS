@@ -1,0 +1,26 @@
+body{
+    font-size: Arial, sans-serif;
+    text-align: center;
+    margin-top: 300px;
+    background-color: grey;
+}
+#counter {
+  font-size: 60px;
+  color: black;
+  margin: 30px;
+}
+button {
+    margin: 50px;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 20px; 
+    border-color: blue;
+    background-color:rgb(128, 228, 192);
+    text-align: center;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: rgb(17, 0, 148);
+    color: white;
+}
