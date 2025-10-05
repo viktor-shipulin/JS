@@ -1,0 +1,11 @@
+# Файлы macOS
+.DS_Store
+
+# Примеры других часто игнорируемых папок (если вы их используете)
+# node.js / NPM
+/node_modules
+# Python
+__pycache__
+# Логи
+*.log.DS_Store
+**/.DS_Store
