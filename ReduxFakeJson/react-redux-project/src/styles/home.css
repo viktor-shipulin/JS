@@ -1,0 +1,40 @@
+.profile-card {
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+body.dark .profile-card {
+    background-color: #2d2d2d;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+.status-badge {
+    background: #28a745;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.update-tag {
+    font-size: 12px;
+    opacity: 0.6;
+    margin-top: 20px;
+}
+body.light {
+    background-color: #ffffff;
+    color: #333;
+}
+
+body.dark {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.profile-card.dark {
+    background-color: #333;
+    border: 1px solid #555;
+}
